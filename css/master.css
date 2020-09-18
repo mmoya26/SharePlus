@@ -108,8 +108,8 @@ img {
 }
 
 #sharing_code_image {
-    max-width: 25rem;
-    width: 100%;
+    max-width: 100%;
+    width: 25rem;
 }
 
 .hero_section_left_side {
@@ -158,4 +158,10 @@ img {
     vertical-align: middle; 
     display: inline-block;
     margin-right: 0.312rem;
+}
+
+.signin_button {
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
 }
