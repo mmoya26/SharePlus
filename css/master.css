@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --navbar_backgroud_color: #1b1b1b;
     --blue_plus: #2bbfc9;
@@ -12,6 +16,7 @@
     --black_plus: #1b1b1b;
     --grey_plus: #F5F5F5;
     --graphite_plus: #586069;
+    --soft_b_plus: #24292E;
 }
 
 
@@ -22,14 +27,13 @@
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
+.white_text {
     color: white;
 }
 
 nav {
     background-color: var(--navbar_backgroud_color);
-    padding: 1.0rem;
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -77,11 +81,14 @@ nav ul li {
 
 h1 {
     font-size: 2rem;
+    color: var(--soft_b_plus);
 }
 
 #hero_section {
     display: flex;
     justify-content: space-around;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 }
 
 img {
@@ -89,8 +96,8 @@ img {
 }
 
 #sharing_code_image {
-    max-width: 100%;
-    width: 25rem;
+    max-width: 25rem;
+    width: 100%;
 }
 
 .hero_section_left_side {
