@@ -10,6 +10,7 @@
     --share-plus-logo-size: 1.6rem;
     --blue-button: #2bbfc9;
     --normal-text-size: 0.875rem;
+    --black-button-color: #1b1b1b;
 }
 
 
@@ -34,7 +35,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 650px;
+    margin-right: 50rem;
 }
 
 nav ul li {
@@ -71,4 +72,51 @@ nav ul li {
 
 .blue_button {
     background-color: var(--blue-button);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#hero_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: auto;
+}
+
+#sharing_code_image {
+    max-width: 100%;
+    width: 25rem;
+}
+
+.hero_section_left_side {
+    max-width: 32rem;
+}
+
+.hero_section_margin {
+    margin-top: 6.25rem;
+}
+
+.hero_section_title {
+    margin-bottom: 0.93rem;
+}
+
+.hero_section_sign_in {
+    margin-top: 0.93rem;;
+}
+
+.button {
+    border-radius: 5px;
+}
+
+
+.large_button {
+    padding: 1.25rem 0.625rem;
+}
+
+.black_button {
+    background-color: var(--black-button-color); 
 }
