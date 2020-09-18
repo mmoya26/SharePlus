@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Montserrat;
+    box-sizing: border-box;
 }
 
 :root {
@@ -11,6 +12,8 @@
     --blue-button: #2bbfc9;
     --normal-text-size: 0.875rem;
     --black-button-color: #1b1b1b;
+    --grey-button-color: #F5F5F5;
+    --graphite-text-color: #586069;
 }
 
 
@@ -98,25 +101,44 @@ img {
 
 .hero_section_margin {
     margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 
 .hero_section_title {
     margin-bottom: 0.93rem;
 }
 
-.hero_section_sign_in {
-    margin-top: 0.93rem;;
+.signin_block {
+    margin-top: 0.93rem;
+}
+
+.signin_block a:nth-child(2) {
+    margin-left: 0.625rem
 }
 
 .button {
     border-radius: 5px;
+    display: inline-block;
 }
-
-
 .large_button {
-    padding: 1.25rem 0.625rem;
+    padding: 0.625rem;
 }
 
 .black_button {
     background-color: var(--black-button-color); 
+}
+
+.grey_button {
+    background-color: var(--grey-button-color);
+}
+
+.graphite_text {
+    color: var(--graphite-text-color);
+}
+
+.signin_image {
+    margin: auto;
+    vertical-align: middle; 
+    display: inline-block;
+    margin-right: 0.312rem;
 }
