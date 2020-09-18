@@ -6,14 +6,12 @@
 }
 
 :root {
-    --navbar-backgroud-color: #1b1b1b;
-    --plus-sign-color: #2bbfc9;
-    --share-plus-logo-size: 1.6rem;
-    --blue-button: #2bbfc9;
-    --normal-text-size: 0.875rem;
-    --black-button-color: #1b1b1b;
-    --grey-button-color: #F5F5F5;
-    --graphite-text-color: #586069;
+    --navbar_backgroud_color: #1b1b1b;
+    --blue_plus: #2bbfc9;
+    --normal_text_size: 0.875rem;
+    --black_plus: #1b1b1b;
+    --grey_plus: #F5F5F5;
+    --graphite_plus: #586069;
 }
 
 
@@ -30,7 +28,7 @@ a {
 }
 
 nav {
-    background-color: var(--navbar-backgroud-color);
+    background-color: var(--navbar_backgroud_color);
     padding: 1.0rem;
 }
 
@@ -46,7 +44,7 @@ nav ul li {
 }
 
 .normal_text_size {
-    font-size: var(--normal-text-size);
+    font-size: var(--normal_text_size);
 }
 
 nav div {
@@ -61,11 +59,11 @@ nav ul li {
 }
 
 #logo_plus_sign {
-    color: var(--plus-sign-color)
+    color: var(--blue_plus)
 }
 
 .logo_size {
-    font-size: var(--share-plus-logo-size);
+    font-size: 1.6rem;
 }
 
 .small_button {
@@ -74,7 +72,7 @@ nav ul li {
 }
 
 .blue_button {
-    background-color: var(--blue-button);
+    background-color: var(--blue_plus);
 }
 
 h1 {
@@ -125,15 +123,15 @@ img {
 }
 
 .black_button {
-    background-color: var(--black-button-color); 
+    background-color: var(--black_plus); 
 }
 
 .grey_button {
-    background-color: var(--grey-button-color);
+    background-color: var(--grey_plus);
 }
 
 .graphite_text {
-    color: var(--graphite-text-color);
+    color: var(--graphite_plus);
 }
 
 .signin_image {
