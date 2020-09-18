@@ -62,8 +62,20 @@ nav ul li {
     font-weight: 400;
 }
 
+#logo_letters {
+    font-weight: 700;
+}
+
 #logo_plus_sign {
     color: var(--blue_plus)
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi_bold {
+    font-weight: 600;
 }
 
 .logo_size {
