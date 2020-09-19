@@ -177,3 +177,53 @@ img {
 }
 
 /* Hero Section End */
+
+/* Repositories Start */
+
+.repositories_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+
+.cards_main_container {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.main_repositories_title {
+    color: var(--soft_b_plus);
+}
+
+.card {
+    background-color: white;
+    padding: 0.625rem 2.1875rem;
+    width: 45%;
+    margin-top: 2.5rem;
+    margin-left: 1.875rem;
+    border-radius: 5px;
+}
+
+.card_title {
+    color: var(--soft_b_plus);
+    margin-bottom: 0.625rem;
+}
+
+
+.card_tag {
+    padding: 0.375rem 0.625rem;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card_description {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+
+
+/* Repositories End */
