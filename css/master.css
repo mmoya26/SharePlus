@@ -185,6 +185,7 @@ img {
     align-items: center;
     flex-direction: column;
     background-color: #E5E5E5;
+    padding: 9.375rem 0;
 }
 
 .cards_main_container {
@@ -209,6 +210,7 @@ img {
 .card_title {
     color: var(--soft_b_plus);
     margin-bottom: 0.625rem;
+    margin-top: 0.9375rem;
 }
 
 
@@ -222,6 +224,11 @@ img {
 .card_description {
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
+}
+
+.card_button {
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
 }
 
 
