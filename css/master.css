@@ -181,21 +181,25 @@ img {
 /* Repositories Start */
 
 .repositories_section {
+    background-color: #F5F5F5;
+    padding: 6.25rem 0;
+}
+
+#repositories_section_id {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #F5F5F5;
-    padding: 9.375rem 0;
 }
 
 .cards_main_container {
     display: flex;
-    width: 60%;
+    width: 75%;
     flex-wrap: wrap;
 }
 
 .main_repositories_title {
     color: var(--soft_b_plus);
+    margin-bottom: 4.6875rem;
 }
 
 .card {
@@ -246,3 +250,6 @@ img {
 }
 
 /* Repositories End */
+
+/* Collaboration Section Start */
+/* Collaboration Section End */
