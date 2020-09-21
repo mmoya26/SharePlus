@@ -135,12 +135,12 @@ img {
 }
 
 #sharing_code_image {
-    max-width: 100%;
-    width: 25rem;
+    max-width: 65%;
+    width: 32rem;
 }
 
 .hero_section_left_side {
-    max-width: 32rem;
+    width: 35%;
 }
 
 .hero_section_margin {
@@ -261,12 +261,12 @@ img {
 
 #collaboration_section_id {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #collaboration_image {
-    max-width: 100%;
-    width: 25rem;
+    max-width: 60%;
+    width: 32rem;
 }
 
 .checkmark_image {
@@ -285,7 +285,7 @@ img {
     flex-direction: column;
     justify-content: center;
     margin-right: 12rem;
-    width: 42%
+    width: 40%
 }
 
 .collaboration_title {
@@ -315,12 +315,12 @@ img {
 #join_section {
     background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(../images/kaleidico-7lryofJ0H9s-unsplash.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 20rem;
     background-position: center -7.5rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .blackout {
@@ -329,13 +329,13 @@ img {
 
 .join_title {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .join_description {
-    margin-bottom: 4.0625rem;
-    margin-top: 0.9375rem;
     width: 35%;
     text-align: center;
+    margin: 0.9375rem auto 4.0625rem auto;
 }
 
 /* Join Section End */
