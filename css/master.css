@@ -239,4 +239,10 @@ img {
     height: 1px;
 }
 
+.card_view_more_button {
+    color: white;
+    margin-top: 4.6875rem;
+    padding: 1.25rem 3.75rem;
+}
+
 /* Repositories End */
