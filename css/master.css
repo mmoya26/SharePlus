@@ -164,7 +164,6 @@ img {
 }
 
 .signin_image {
-    margin: auto;
     vertical-align: middle; 
     display: inline-block;
     margin-right: 0.312rem;
@@ -209,6 +208,9 @@ img {
     margin-top: 2.5rem;
     margin-left: 1.875rem;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 .card_title {
@@ -247,9 +249,67 @@ img {
     color: white;
     margin-top: 4.6875rem;
     padding: 1.25rem 3.75rem;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
 }
 
 /* Repositories End */
 
 /* Collaboration Section Start */
+.collaboration_section {
+    background-color: #F5F5F5;
+    padding: 6.25rem 0;
+}
+
+#collaboration_section_id {
+    display: flex;
+    justify-content: space-around;
+}
+
+#collaboration_image {
+    max-width: 100%;
+    width: 25rem;
+}
+
+.checkmark_image {
+    width: 1.625rem;
+    max-width: 100%;
+    margin-right: 0.625rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.check_mark_outside_container {
+    display: flex;
+}
+.collaboration_right_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 12rem;
+    width: 42%
+}
+
+.collaboration_title {
+    margin-bottom: 0.9375rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--black_plus)
+}
+
+.collaboration_description {
+    margin-bottom: 1.25rem;
+    width: 100%;
+}
+
+.check_mark_container {
+    margin-right: 3.125rem;
+    
+}
+
+.checkmark_item {
+    display: inline-block;
+    margin-bottom: 1.25rem;
+}
 /* Collaboration Section End */
