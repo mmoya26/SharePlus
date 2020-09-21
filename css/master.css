@@ -92,7 +92,8 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 50rem;
+    margin-right: auto;
+    margin-left: 1.25rem;
 }
 
 .nav_bar {
