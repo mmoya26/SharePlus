@@ -232,5 +232,10 @@ img {
 }
 
 
+.card hr {
+    background-color: #E5E5E5;
+    border: none;
+    height: 1px;
+}
 
 /* Repositories End */
