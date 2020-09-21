@@ -184,7 +184,7 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #E5E5E5;
+    background-color: #F5F5F5;
     padding: 9.375rem 0;
 }
 
@@ -219,6 +219,7 @@ img {
     background-color: #E5E5E5;
     border-radius: 5px;
     display: inline-block;
+    font-size: 0.75rem;
 }
 
 .card_description {
