@@ -312,3 +312,30 @@ img {
     margin-bottom: 1.25rem;
 }
 /* Collaboration Section End */
+
+
+/* Join Section Start */
+#join_section {
+    background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(../images/kaleidico-7lryofJ0H9s-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    background-position: center -7.5rem;
+    justify-content: center;
+}
+
+.blackout {
+    background-color: black;
+}
+
+
+.join_description {
+    margin-bottom: 4.0625rem;
+    margin-top: 0.9375rem;
+    width: 35%;
+    text-align: center;
+}
+
+/* Join Section End */
