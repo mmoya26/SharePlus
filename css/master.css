@@ -8,7 +8,6 @@
 :root {
     --navbar_backgroud_color: #1b1b1b;
     --blue_plus: #2bbfc9;
-    --normal_text_size: 0.875rem;
     --black_plus: #1b1b1b;
     --grey_plus: #F5F5F5;
     --graphite_plus: #586069;
@@ -55,7 +54,7 @@ a {
 }
 
 .normal_text_size {
-    font-size: var(--normal_text_size);
+    font-size: 0.875rem;
 }
 
 .bold {
@@ -304,10 +303,6 @@ img {
     width: 100%;
 }
 
-.check_mark_container {
-    margin-right: 3.125rem;
-}
-
 .checkmark_item {
     display: inline-block;
     margin-bottom: 1.25rem;
@@ -365,3 +360,72 @@ footer {
     margin-right: 2.1875rem;
 }
 /* Footer End */
+
+
+/* Media Queries */
+
+@media (max-width: 1559px) {
+    /* Collaboration Section */ 
+
+    #collaboration_image {
+        width: 25rem;
+    }
+
+    .collaboration_right_column {
+        width: 50%;
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 1394px) {
+    /* Hero Section */
+
+    #sharing_code_image {
+        width: 25rem;
+    }
+
+    .hero_section_sign_in a{
+        margin: 0.9375rem 0 0 0 !important;
+        display: block;
+        text-align: center;
+    }
+
+    /* Repositories section */
+    .cards_main_container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .join_description {
+        width: 60%;
+    }
+
+    #sharing_code_image {
+        width: 20rem;
+    }
+
+    .normal_text_size {
+        font-size: 0.75rem;
+    }
+
+    .cards_main_container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .cards_main_container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
