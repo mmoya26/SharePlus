@@ -341,6 +341,11 @@ img {
 /* Join Section End */
 
 /* Footer Start */
+
+footer {
+    padding: 1rem 0;
+}
+
 .footer_logo {
     color: #24292E;
 }
