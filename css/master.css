@@ -410,7 +410,7 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1120px) {
     h1 {
         font-size: 1.75rem;
     }
@@ -456,6 +456,27 @@ footer {
     #btn_nav_sign_in {
         display: none;
     }
+
+    img {
+        display: none;
+    }
+
+    .hero_section_left_side {
+        width: 65%;
+    }
+
+    .collaboration_right_column {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    #collaboration_section_id {
+        justify-content: center;
+    }
+
+    .card_tags_container span:nth-child(4) {
+        display: none;
+    }
 }
 
 @media (max-width: 375px) {
@@ -475,10 +496,6 @@ footer {
 
     .hero_section_title {
         margin-bottom: 1.875rem;
-    }
-
-    img {
-        display: none;
     }
 
     .hero_section_left_side {
@@ -511,7 +528,7 @@ footer {
         align-items: normal;
     }
 
-    .card_tags_container span:nth-child(4) {
+    .cards_main_container .card:nth-child(-n+3) {
         display: none;
     }
 
@@ -525,5 +542,28 @@ footer {
 
     .card_view_more_button {
         text-align: center;
+    }
+
+    .check_mark_outside_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #join_section {
+        height: 25rem;
+    }
+
+    .join_description {
+        margin: 0.938rem 0 0 0;
+    }
+
+    #join_signin_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #join_signin_block a:nth-child(2) {
+        margin-top: 0.9375rem;
+        margin-left: 0;
     }
 }
